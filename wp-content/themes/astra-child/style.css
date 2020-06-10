@@ -11,3 +11,29 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
+
+p.location {
+  border-color: #CFCFCF;
+  border-style: solid;
+  border-width: 1px 0;
+  font-size: 1.5rem;
+  margin: 20px inherit;
+  padding: 20px inherit;
+}
+
+ul.profile-friends {
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 10px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+ul.profile_friends li {
+  margin: 10px;
+  padding: 20px;
+  width: 30%;
+
+}

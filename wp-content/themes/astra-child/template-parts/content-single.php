@@ -47,7 +47,7 @@
       printf ( $format,
       get_permalink(),
       get_the_title(),
-      get_the_post_thumbnail(get_the_ID(), 'medium'));
+      get_the_post_thumbnail(get_the_ID(), 'thumbnail'));
     }
   }
 
