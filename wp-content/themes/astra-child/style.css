@@ -37,3 +37,18 @@ ul.profile_friends li {
   width: 30%;
 
 }
+
+.resume section {
+  border-bottom: 1px solid #CFCFCF;
+  margin-top: 15px;
+}
+
+.resume section .date {
+  float: right;
+}
+
+.resume section .simple-description {
+  margin: 5px 0;
+  font-size: 1.25rem;
+  font-style: italic;
+}

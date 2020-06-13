@@ -57,7 +57,7 @@
 
     printf( $resume_format,
     $dates,
-    $titles,
+    $title,
     $simple_description,
     $full_description
   );
