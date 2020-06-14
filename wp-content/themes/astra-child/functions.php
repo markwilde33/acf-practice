@@ -6,3 +6,22 @@ function my_theme_enqueue_styles() {
     );
 }
 
+
+add_action('acf/init', 'lil_define_block');
+function lil_define_block() {
+	
+	// check function exists
+	if( function_exists( 'acf_register_block' ) ) {
+		
+		// register a fun facts block
+		acf_register_block(array(
+			'name'				=> 'fun-facts',
+			'title'				=> __( 'Fun Facts' ),
+			'description'		=> __('A custom fun facts block.'),
+			'render_callback'	=> 'lil_render_fun_facts_block',
+			'category'			=> 'layout',
+			'icon'				=> 'nametag',
+			'keywords'			=> array( 'fun', 'facts', 'profiles', 'acf' ),
+		));
+	}
+}
